@@ -70,6 +70,7 @@ $ vue init shenliyang/webpack my-project
 > 邮箱地址：[snippet@91h5.cc](mailto:snippet@91h5.cc)    
 邮件格式：标题部分：*邮件标题 + #vue-template* (主要为了和其他项目能区分开)，内容不限。
 
+
 ## 更新日志
 
 ## 协议
