@@ -3,7 +3,7 @@
 
 > 该项目基于 vue-cli 2.x 版本。新版本@vue/cli3文档请移步[这里](https://cli.vuejs.org)。
 
-基于官方 vuejs-templates/webpack 深度个性化定制，主体模板与官方模板保持一致并同步更新，在原有功能基础上进行非侵入式的渐进式增量扩展(包含但不限于，常用的过滤器、指令、插件和工具，接口封装，路由封装，状态管理封装等)，然而你并不需要担心代码冗余臃肿问题，所有增量扩展部分都可以在该引导程序中选择安装或者不安装，真正做到开箱即用的 Vue + Webpack 脚手架模版，致力于Vue开发最佳实践<sup>(ALMOST)</sup>，减少每次搭建Vue项目脚手架后的重复工作。
+基于官方 vuejs-templates/webpack 深度个性化定制，主体模板与官方模板保持一致并同步更新，在原有功能基础上进行非侵入式的渐进式增量扩展(包含但不限于，常用的过滤器、指令、插件和工具，接口封装，路由封装，状态管理封装等)，`然而你并不需要担心代码冗余臃肿问题，所有增量扩展部分都可以在该引导程序中选择安装或者不安装`，真正做到开箱即用的 Vue + Webpack 脚手架模版，致力于Vue开发最佳实践<sup>(ALMOST)</sup>，减少每次搭建Vue项目脚手架后的重复工作。
 
 ## 特色定制
 
@@ -26,33 +26,32 @@
 
 ### npm命令项
 
----
 
 ## 环境要求
 > 该项目中如果没有特殊标注，所有vue-cli都代表 vue-cli(2.*)版本,不包含@vue/cli3或其他版本
 
 ## 使用说明
-> **关于新版本**
+> **关于版本**
 如果你已经全局安装了新版本的 @vue/cli3，你需要先通过 npm uninstall vue-cli -g 或 yarn global remove vue-cli 卸载它。如果需要同时使用，全局安装一个桥接工具(不建议同时使用)
 
 ### 安装
 
-首先需要全局安装vue-cli
+1. 首先需要全局安装vue-cli
 
-``` bash
+```Bash
 $ npm install -g vue-cli
 ```
 
-可以用命令来检查其版本是否正确 (2.x)：
+2. 可以用命令来检查其版本是否正确 (2.x)：
 
-``` bash
+```Bash
 vue -V
 ```
 
-### 创建一个项目
+3. 创建一个项目
 
-``` bash
-$ vue init shenliyang/webpack my-project
+```Bash
+$ vue init shenliyang/webpack my-project 
 ```
 
 
