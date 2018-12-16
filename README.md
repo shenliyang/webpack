@@ -26,6 +26,7 @@
 
 ### npm命令项
 
+---
 
 ## 环境要求
 > 该项目中如果没有特殊标注，所有vue-cli都代表 vue-cli(2.*)版本,不包含@vue/cli3或其他版本
@@ -57,10 +58,10 @@ $ vue init shenliyang/webpack my-project
 
 ## 参与贡献
 
-1. Fork 本项目
-2. 新建分支名称：
-* Feat_xxx(新功能)
-* Fixed_xxx(修复bug)
+1. Fork 本项目develop分支代码
+2. 新建工作分支名称：
+    - Feat_xxx(新功能)
+    - Fixed_xxx(修复bug)
 3. 提交代码
 4. 新建 Pull Request
 
