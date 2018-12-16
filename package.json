@@ -1,0 +1,19 @@
+{
+  "name": "awesome-vue-webpack-boilerplate",
+  "version": "1.0.0",
+  "description": "A full-featured Webpack setup with hot-reload, lint-on-save, unit testing & css extraction.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "shenliyang",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shenliyang/awesome-vue-webpack-boilerplates"
+  },
+  "devDependencies": {
+    "vue-cli": "^2.8.1"
+  },
+  "license": "MIT"
+}
+
+
