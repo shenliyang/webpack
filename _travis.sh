@@ -48,14 +48,14 @@ EOF
   # Github repo
   git push --force --quiet "https://${GH_TOKEN}@${GH_REF_WEBPACK}" master:master
   # Gitee repo
-  # git push --force --quiet "https://shenliyang:${GITEE_TOKEN}@${GITEE_REF}" master:master
+  git push --force --quiet "https://shenliyang:${GITEE_TOKEN}@${GITEE_REF_AVWB}" master:master
 
   # Create Tag
   git tag v1.2.$TRAVIS_BUILD_NUMBER -a -m "Auto Taged By TravisCI With Build $TRAVIS_BUILD_NUMBER"
   # Github repo
   git push --quiet "https://${GH_TOKEN}@${GH_REF_WEBPACK}" master:master --tags
   # Gitee repo
-  # git push --quiet "https://shenliyang:${GITEE_TOKEN}@${GITEE_REF}" master:master --tags
+  git push --quiet "https://shenliyang:${GITEE_TOKEN}@${GITEE_REF_AVWB}" master:master --tags
 }
 
 case $1 in

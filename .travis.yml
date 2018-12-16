@@ -46,4 +46,5 @@ env:
  global:
    - GH_REF_AVWB: github.com/shenliyang/awesome-vue-webpack-boilerplate.git
    - GH_REF_WEBPACK: github.com/shenliyang/webpack.git
+   - GITEE_REF_AVWB: gitee.com/shenliyang/awesome-vue-webpack-boilerplate.git
 
