@@ -1,5 +1,6 @@
 # awesome-vue-webpack-boilerplate
 
+[![Build Status](https://www.travis-ci.org/shenliyang/awesome-vue-webpack-boilerplate.svg?branch=master)](https://www.travis-ci.org/awesome-vue-webpack-boilerplate)
 
 > 该项目基于 vue-cli 2.x 版本。新版本@vue/cli3文档请移步[这里](https://cli.vuejs.org)。
 
