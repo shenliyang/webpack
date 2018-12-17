@@ -77,3 +77,14 @@ $ vue init shenliyang/webpack my-project
 MIT
 
 
+部署状态 | 集成结果 | 参考值
+---|---|---
+完成时间 | 2018-12-17 09:20:25 | yyyy-mm-dd hh:mm:ss
+部署环境 | linux + stable | window \| linux + stable
+部署类型 | push | push \| pull_request \| api \| cron
+启用Sudo | true | false \| true
+仓库地址 | shenliyang/awesome-vue-webpack-boilerplate | owner_name/repo_name
+提交分支 | cef8a1e6123b3cc697469270b3d0c127fb2cbb1d | hash 16位
+提交信息 | update travis.yml |
+Job ID   | 468820409 |
+Job NUM  | 13.1 |
