@@ -1,7 +1,7 @@
 language: node_js
 node_js: stable
 
-# sudo: false #官网更新维护
+sudo: false
 
 #cache
 cache:
